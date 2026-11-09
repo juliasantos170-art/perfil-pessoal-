@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+    inteiro idade 
+    cadeia nome 
+    escreva("sua idade: ")
+    leia(idade)
+    escreva("seu nome: ")
+    leia(nome)
+
+    se(idade < 18){
+escreva("voce é menor, pode entrar.")
+    }
+    se(idade >= 18){
+      escreva("voce não é menor, não pode entrar.")
+      escreva("\nencontre um menor responsavel.")
+    }
+    se(nome == "julia"){
+      escreva("\nvoce pode entrar escondido...")
+    }
+    se(nome != "julia"){
+      escreva("\nvoce não deveria estar aqui...")
+    }
+  }
+}
+
